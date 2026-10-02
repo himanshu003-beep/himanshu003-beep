@@ -1,0 +1,505 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="600"
+  viewBox="0 0 1200 600"
+>
+
+  <defs>
+
+    <!-- ================= BACKGROUND ================= -->
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0b0f19"/>
+    </linearGradient>
+
+
+    <!-- ================= TITLE GRADIENT ================= -->
+
+    <linearGradient id="titleGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+
+    <!-- ================= GITHUB ================= -->
+
+    <linearGradient id="githubGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+
+
+    <!-- ================= LINKEDIN ================= -->
+
+    <linearGradient id="linkedinGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+
+
+    <!-- ================= EMAIL ================= -->
+
+    <linearGradient id="emailGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+
+    <!-- ================= GLOW ================= -->
+
+    <filter id="glow">
+      <feGaussianBlur
+        stdDeviation="4"
+        result="blur"
+      />
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+
+    <!-- ================= CHARACTER GLOW ================= -->
+
+    <radialGradient id="characterGlow">
+      <stop
+        offset="0%"
+        stop-color="#22d3ee"
+        stop-opacity="0.20"
+      />
+
+      <stop
+        offset="100%"
+        stop-color="#22d3ee"
+        stop-opacity="0"
+      />
+    </radialGradient>
+
+  </defs>
+
+
+  <!-- ================================================= -->
+  <!-- MAIN CONTAINER -->
+  <!-- ================================================= -->
+
+  <rect
+    x="8"
+    y="8"
+    width="1184"
+    height="584"
+    rx="30"
+    fill="url(#bg)"
+    stroke="#293043"
+    stroke-width="2"
+  />
+
+
+  <!-- ================================================= -->
+  <!-- HEADER -->
+  <!-- ================================================= -->
+
+  <text
+    x="600"
+    y="62"
+    text-anchor="middle"
+    fill="url(#titleGradient)"
+    font-family="Arial, sans-serif"
+    font-size="38"
+    font-weight="700"
+  >
+    CONNECT WITH ME
+  </text>
+
+
+  <text
+    x="600"
+    y="92"
+    text-anchor="middle"
+    fill="#64748b"
+    font-family="monospace"
+    font-size="12"
+  >
+    Let's build something useful together
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- GITHUB CARD -->
+  <!-- ================================================= -->
+
+  <a href="https://github.com/himanshu003-beep">
+
+    <rect
+      x="80"
+      y="145"
+      width="530"
+      height="105"
+      rx="20"
+      fill="#0f172a"
+      stroke="#22d3ee"
+      stroke-opacity="0.55"
+      stroke-width="2"
+    />
+
+    <circle
+      cx="135"
+      cy="197"
+      r="31"
+      fill="url(#githubGradient)"
+      opacity="0.18"
+    />
+
+    <text
+      x="135"
+      y="207"
+      text-anchor="middle"
+      fill="#22d3ee"
+      font-family="Arial, sans-serif"
+      font-size="25"
+      font-weight="700"
+    >
+      GH
+    </text>
+
+
+    <text
+      x="190"
+      y="184"
+      fill="#f8fafc"
+      font-family="Arial, sans-serif"
+      font-size="21"
+      font-weight="700"
+    >
+      GitHub
+    </text>
+
+
+    <text
+      x="190"
+      y="211"
+      fill="#94a3b8"
+      font-family="monospace"
+      font-size="13"
+    >
+      github.com/himanshu003-beep
+    </text>
+
+
+    <text
+      x="190"
+      y="232"
+      fill="#22d3ee"
+      font-family="monospace"
+      font-size="10"
+    >
+      VIEW MY PROJECTS →
+    </text>
+
+  </a>
+
+
+  <!-- ================================================= -->
+  <!-- LINKEDIN CARD -->
+  <!-- ================================================= -->
+
+  <a href="https://www.linkedin.com/in/himanshu-shukla3/">
+
+    <rect
+      x="80"
+      y="270"
+      width="530"
+      height="105"
+      rx="20"
+      fill="#0f172a"
+      stroke="#a78bfa"
+      stroke-opacity="0.55"
+      stroke-width="2"
+    />
+
+
+    <circle
+      cx="135"
+      cy="322"
+      r="31"
+      fill="url(#linkedinGradient)"
+      opacity="0.18"
+    />
+
+
+    <text
+      x="135"
+      y="332"
+      text-anchor="middle"
+      fill="#a78bfa"
+      font-family="Arial, sans-serif"
+      font-size="24"
+      font-weight="700"
+    >
+      in
+    </text>
+
+
+    <text
+      x="190"
+      y="309"
+      fill="#f8fafc"
+      font-family="Arial, sans-serif"
+      font-size="21"
+      font-weight="700"
+    >
+      LinkedIn
+    </text>
+
+
+    <text
+      x="190"
+      y="336"
+      fill="#94a3b8"
+      font-family="monospace"
+      font-size="13"
+    >
+      linkedin.com/in/himanshu-shukla3
+    </text>
+
+
+    <text
+      x="190"
+      y="357"
+      fill="#a78bfa"
+      font-family="monospace"
+      font-size="10"
+    >
+      CONNECT WITH ME →
+    </text>
+
+  </a>
+
+
+  <!-- ================================================= -->
+  <!-- EMAIL CARD -->
+  <!-- ================================================= -->
+
+  <a href="mailto:himanshu.shukla.it@gmail.com">
+
+    <rect
+      x="80"
+      y="395"
+      width="530"
+      height="105"
+      rx="20"
+      fill="#0f172a"
+      stroke="#f472b6"
+      stroke-opacity="0.55"
+      stroke-width="2"
+    />
+
+
+    <circle
+      cx="135"
+      cy="447"
+      r="31"
+      fill="url(#emailGradient)"
+      opacity="0.18"
+    />
+
+
+    <text
+      x="135"
+      y="455"
+      text-anchor="middle"
+      fill="#f472b6"
+      font-family="Arial, sans-serif"
+      font-size="23"
+      font-weight="700"
+    >
+      @
+    </text>
+
+
+    <text
+      x="190"
+      y="434"
+      fill="#f8fafc"
+      font-family="Arial, sans-serif"
+      font-size="21"
+      font-weight="700"
+    >
+      Email
+    </text>
+
+
+    <text
+      x="190"
+      y="461"
+      fill="#94a3b8"
+      font-family="monospace"
+      font-size="13"
+    >
+      himanshu.shukla.it@gmail.com
+    </text>
+
+
+    <text
+      x="190"
+      y="482"
+      fill="#f472b6"
+      font-family="monospace"
+      font-size="10"
+    >
+      SEND ME A MESSAGE →
+    </text>
+
+  </a>
+
+
+  <!-- ================================================= -->
+  <!-- CHARACTER AREA -->
+  <!-- ================================================= -->
+
+  <ellipse
+    cx="875"
+    cy="485"
+    rx="210"
+    ry="95"
+    fill="url(#characterGlow)"
+  />
+
+
+  <!-- Pointing Character -->
+
+  <image
+    href="../pointing.png"
+    x="690"
+    y="135"
+    width="370"
+    height="390"
+    preserveAspectRatio="xMidYMid meet"
+  />
+
+
+  <!-- ================================================= -->
+  <!-- SPEECH BUBBLE -->
+  <!-- ================================================= -->
+
+  <rect
+    x="820"
+    y="112"
+    width="290"
+    height="82"
+    rx="20"
+    fill="#111827"
+    stroke="#22d3ee"
+    stroke-opacity="0.55"
+    stroke-width="2"
+  />
+
+
+  <text
+    x="965"
+    y="145"
+    text-anchor="middle"
+    fill="#f8fafc"
+    font-family="Arial, sans-serif"
+    font-size="16"
+    font-weight="700"
+  >
+    Have an idea?
+  </text>
+
+
+  <text
+    x="965"
+    y="172"
+    text-anchor="middle"
+    fill="#22d3ee"
+    font-family="monospace"
+    font-size="12"
+  >
+    Let's build it!
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- DECORATIVE DOTS -->
+  <!-- ================================================= -->
+
+  <circle
+    cx="675"
+    cy="180"
+    r="4"
+    fill="#22d3ee"
+    opacity="0.8"
+  />
+
+  <circle
+    cx="650"
+    cy="210"
+    r="3"
+    fill="#a78bfa"
+    opacity="0.7"
+  />
+
+  <circle
+    cx="690"
+    cy="230"
+    r="3"
+    fill="#f472b6"
+    opacity="0.7"
+  />
+
+
+  <!-- ================================================= -->
+  <!-- ANIMATED STATUS -->
+  <!-- ================================================= -->
+
+  <circle
+    cx="645"
+    cy="545"
+    r="5"
+    fill="#22d3ee"
+    filter="url(#glow)"
+  >
+
+    <animate
+      attributeName="opacity"
+      values="1;0.25;1"
+      dur="1.5s"
+      repeatCount="indefinite"
+    />
+
+  </circle>
+
+
+  <text
+    x="660"
+    y="550"
+    fill="#64748b"
+    font-family="monospace"
+    font-size="11"
+  >
+    OPEN TO COLLABORATIONS
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- FOOTER -->
+  <!-- ================================================= -->
+
+  <text
+    x="600"
+    y="575"
+    text-anchor="middle"
+    fill="#334155"
+    font-family="monospace"
+    font-size="10"
+  >
+    GITHUB • LINKEDIN • EMAIL
+  </text>
+
+
+</svg>

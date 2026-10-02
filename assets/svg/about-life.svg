@@ -1,0 +1,491 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="520"
+  viewBox="0 0 1200 520"
+>
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient id="aboutBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d0e16"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0d0e16"/>
+    </linearGradient>
+
+    <!-- Accent -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+  </defs>
+
+
+  <!-- ================================================= -->
+  <!-- MAIN CARD -->
+  <!-- ================================================= -->
+
+  <rect
+    x="10"
+    y="10"
+    width="1180"
+    height="500"
+    rx="30"
+    fill="url(#aboutBg)"
+    stroke="#27293a"
+    stroke-width="2"
+  />
+
+
+  <!-- ================================================= -->
+  <!-- TITLE -->
+  <!-- ================================================= -->
+
+  <text
+    x="600"
+    y="70"
+    text-anchor="middle"
+    fill="url(#accent)"
+    font-family="Arial, sans-serif"
+    font-size="38"
+    font-weight="700"
+  >
+    WHAT I BUILD
+  </text>
+
+
+  <text
+    x="600"
+    y="100"
+    text-anchor="middle"
+    fill="#64748b"
+    font-family="monospace"
+    font-size="13"
+  >
+    Turning ideas into practical software
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- BUILD CARD 1 - AI -->
+  <!-- ================================================= -->
+
+  <rect
+    x="80"
+    y="135"
+    width="310"
+    height="115"
+    rx="18"
+    fill="#111827"
+    stroke="#22d3ee"
+    stroke-opacity="0.45"
+  />
+
+  <text
+    x="105"
+    y="175"
+    fill="#22d3ee"
+    font-family="monospace"
+    font-size="25"
+  >
+    AI
+  </text>
+
+  <text
+    x="155"
+    y="175"
+    fill="#f8fafc"
+    font-family="Arial, sans-serif"
+    font-size="21"
+    font-weight="600"
+  >
+    AI Systems
+  </text>
+
+  <text
+    x="105"
+    y="210"
+    fill="#94a3b8"
+    font-family="Arial, sans-serif"
+    font-size="14"
+  >
+    Machine learning &amp; intelligent
+  </text>
+
+  <text
+    x="105"
+    y="230"
+    fill="#94a3b8"
+    font-family="Arial, sans-serif"
+    font-size="14"
+  >
+    application development
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- BUILD CARD 2 - BACKEND -->
+  <!-- ================================================= -->
+
+  <rect
+    x="445"
+    y="135"
+    width="310"
+    height="115"
+    rx="18"
+    fill="#111827"
+    stroke="#a78bfa"
+    stroke-opacity="0.45"
+  />
+
+  <text
+    x="470"
+    y="175"
+    fill="#a78bfa"
+    font-family="monospace"
+    font-size="25"
+  >
+    API
+  </text>
+
+  <text
+    x="535"
+    y="175"
+    fill="#f8fafc"
+    font-family="Arial, sans-serif"
+    font-size="21"
+    font-weight="600"
+  >
+    Backend APIs
+  </text>
+
+  <text
+    x="470"
+    y="210"
+    fill="#94a3b8"
+    font-family="Arial, sans-serif"
+    font-size="14"
+  >
+    FastAPI, databases &amp;
+  </text>
+
+  <text
+    x="470"
+    y="230"
+    fill="#94a3b8"
+    font-family="Arial, sans-serif"
+    font-size="14"
+  >
+    scalable backend systems
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- BUILD CARD 3 - WEB -->
+  <!-- ================================================= -->
+
+  <rect
+    x="810"
+    y="135"
+    width="310"
+    height="115"
+    rx="18"
+    fill="#111827"
+    stroke="#f472b6"
+    stroke-opacity="0.45"
+  />
+
+  <text
+    x="835"
+    y="175"
+    fill="#f472b6"
+    font-family="monospace"
+    font-size="25"
+  >
+    WEB
+  </text>
+
+  <text
+    x="910"
+    y="175"
+    fill="#f8fafc"
+    font-family="Arial, sans-serif"
+    font-size="21"
+    font-weight="600"
+  >
+    Applications
+  </text>
+
+  <text
+    x="835"
+    y="210"
+    fill="#94a3b8"
+    font-family="Arial, sans-serif"
+    font-size="14"
+  >
+    Modern interfaces &amp;
+  </text>
+
+  <text
+    x="835"
+    y="230"
+    fill="#94a3b8"
+    font-family="Arial, sans-serif"
+    font-size="14"
+  >
+    practical web experiences
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- HOBBIES TITLE -->
+  <!-- ================================================= -->
+
+  <text
+    x="600"
+    y="305"
+    text-anchor="middle"
+    fill="#f8fafc"
+    font-family="Arial, sans-serif"
+    font-size="28"
+    font-weight="700"
+  >
+    HOBBIES
+  </text>
+
+
+  <text
+    x="600"
+    y="335"
+    text-anchor="middle"
+    fill="#64748b"
+    font-family="monospace"
+    font-size="12"
+  >
+    A few things I enjoy outside coding
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- HOBBY 1 - CODING -->
+  <!-- ================================================= -->
+
+  <g>
+
+    <animate
+      attributeName="opacity"
+      values="1;1;0;0;0;1"
+      keyTimes="0;0.20;0.25;0.70;0.75;1"
+      dur="16s"
+      repeatCount="indefinite"
+    />
+
+    <rect
+      x="125"
+      y="365"
+      width="210"
+      height="75"
+      rx="18"
+      fill="#111827"
+      stroke="#22d3ee"
+      stroke-opacity="0.4"
+    />
+
+    <text
+      x="230"
+      y="410"
+      text-anchor="middle"
+      fill="#22d3ee"
+      font-family="Arial, sans-serif"
+      font-size="28"
+    >
+      CODING
+    </text>
+
+    <text
+      x="230"
+      y="430"
+      text-anchor="middle"
+      fill="#cbd5e1"
+      font-family="monospace"
+      font-size="13"
+    >
+      Building &amp; experimenting
+    </text>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- HOBBY 2 - GAMING -->
+  <!-- ================================================= -->
+
+  <g opacity="0">
+
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.20;0.25;0.45;0.50;1"
+      dur="16s"
+      repeatCount="indefinite"
+    />
+
+    <rect
+      x="365"
+      y="365"
+      width="210"
+      height="75"
+      rx="18"
+      fill="#111827"
+      stroke="#a78bfa"
+      stroke-opacity="0.4"
+    />
+
+    <text
+      x="470"
+      y="410"
+      text-anchor="middle"
+      fill="#a78bfa"
+      font-family="Arial, sans-serif"
+      font-size="28"
+    >
+      GAMING
+    </text>
+
+    <text
+      x="470"
+      y="430"
+      text-anchor="middle"
+      fill="#cbd5e1"
+      font-family="monospace"
+      font-size="13"
+    >
+      Relaxing &amp; having fun
+    </text>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- HOBBY 3 - MUSIC -->
+  <!-- ================================================= -->
+
+  <g opacity="0">
+
+    <animate
+      attributeName="opacity"
+      values="0;0;0;1;1;0"
+      keyTimes="0;0.45;0.50;0.55;0.70;0.75"
+      dur="16s"
+      repeatCount="indefinite"
+    />
+
+    <rect
+      x="605"
+      y="365"
+      width="210"
+      height="75"
+      rx="18"
+      fill="#111827"
+      stroke="#f472b6"
+      stroke-opacity="0.4"
+    />
+
+    <text
+      x="710"
+      y="410"
+      text-anchor="middle"
+      fill="#f472b6"
+      font-family="Arial, sans-serif"
+      font-size="28"
+    >
+      MUSIC
+    </text>
+
+    <text
+      x="710"
+      y="430"
+      text-anchor="middle"
+      fill="#cbd5e1"
+      font-family="monospace"
+      font-size="13"
+    >
+      Music &amp; creativity
+    </text>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- HOBBY 4 - LEARNING -->
+  <!-- ================================================= -->
+
+  <g opacity="0">
+
+    <animate
+      attributeName="opacity"
+      values="0;0;0;0;1;1;0"
+      keyTimes="0;0.65;0.70;0.75;0.80;0.95;1"
+      dur="16s"
+      repeatCount="indefinite"
+    />
+
+    <rect
+      x="845"
+      y="365"
+      width="210"
+      height="75"
+      rx="18"
+      fill="#111827"
+      stroke="#22d3ee"
+      stroke-opacity="0.4"
+    />
+
+    <text
+      x="950"
+      y="410"
+      text-anchor="middle"
+      fill="#22d3ee"
+      font-family="Arial, sans-serif"
+      font-size="28"
+    >
+      LEARNING
+    </text>
+
+    <text
+      x="950"
+      y="430"
+      text-anchor="middle"
+      fill="#cbd5e1"
+      font-family="monospace"
+      font-size="13"
+    >
+      Always improving
+    </text>
+
+  </g>
+
+
+  <!-- ================================================= -->
+  <!-- CAROUSEL INDICATORS -->
+  <!-- ================================================= -->
+
+  <circle cx="555" cy="475" r="4" fill="#22d3ee">
+    <animate
+      attributeName="opacity"
+      values="1;0.3;1"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <circle cx="575" cy="475" r="4" fill="#475569"/>
+
+  <circle cx="595" cy="475" r="4" fill="#475569"/>
+
+  <circle cx="615" cy="475" r="4" fill="#475569"/>
+
+</svg>
